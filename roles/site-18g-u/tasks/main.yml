@@ -12,13 +12,13 @@
 
     - name: Удалить файл конфигурации truruky
       ansible.builtin.file:
-      path: /etc/nginx/sites-available/truruky
-      state: absent
+        path: /etc/nginx/sites-available/truruky
+        state: absent
 
     - name: Удалить файл конфигурации truruky
       ansible.builtin.file:
-      path: /etc/nginx/sites-enabled/truruky
-      state: absent
+        path: /etc/nginx/sites-enabled/truruky
+        state: absent
 
 
     - name: Reload nginx
