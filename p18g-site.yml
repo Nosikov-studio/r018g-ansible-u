@@ -1,7 +1,0 @@
----
-- name: Install my site
-  become: yes
-  hosts: all
-
-  roles:
-    - site-18g
